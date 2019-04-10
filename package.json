@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development ./wedding/frontend/src/index.js --output ./wedding/frontend/static/frontend/main.js",
-    "build": "webpack --mode production ./wedding/frontend/src/index.js --output ./wedding/frontend/static/frontend/main.js"
+    "build": "webpack --mode production ./wedding/frontend/src/index.js --output ./wedding/frontend/static/frontend/main.js",
+    "watch": "webpack --watch --mode development ./wedding/frontend/src/index.js --output ./wedding/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
