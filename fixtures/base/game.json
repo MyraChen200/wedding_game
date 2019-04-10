@@ -1,0 +1,30 @@
+[
+{
+    "model": "server.game",
+    "pk": 1,
+    "fields": {
+        "name": "Comment"
+    }
+},
+{
+    "model": "server.game",
+    "pk": 2,
+    "fields": {
+        "name": "Questions"
+    }
+},
+{
+    "model": "server.game",
+    "pk": 3,
+    "fields": {
+        "name": "Vote"
+    }
+},
+{
+    "model": "server.game",
+    "pk": 4,
+    "fields": {
+        "name": "PhotoSlideshow"
+    }
+}
+]
