@@ -188,3 +188,8 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+wedding/main/static/js/
+wedding/main/static/assets/
+
+

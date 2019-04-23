@@ -36,8 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'server',
-    'frontend'
+    'server'
 ]
 
 MIDDLEWARE = [
@@ -51,7 +50,7 @@ MIDDLEWARE = [
     # 'django.middleware.locale.LocaleMiddleware'
 ]
 
-ROOT_URLCONF = 'wedding.urls'
+ROOT_URLCONF = 'main.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wedding.wsgi.application'
+WSGI_APPLICATION = 'main.wsgi.application'
 
 
 # Database
