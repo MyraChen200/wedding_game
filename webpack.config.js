@@ -3,7 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 const MAIN_DIR = path.resolve(__dirname, './wedding/main');
-const APP_DIR = path.resolve(__dirname, './frontend/src');
+const APP_DIR = path.resolve(__dirname, './frontend/src/js');
 const ASSETS_DIR = path.resolve(__dirname, './frontend/assets');
 console.log(__dirname)
 var config = {
