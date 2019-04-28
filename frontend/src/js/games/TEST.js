@@ -1,16 +1,16 @@
 import React from "react"
 
-class PhotoSlideShow extends React.Component {
+class TEST extends React.Component {
     render() {
         const style = {
         }
 
         return (
         	<div>
-	            <div>This is photo page</div>
+	            <div>Test</div>
         	</div>
         )
     }
 }
 
-export default PhotoSlideShow
+export default TEST

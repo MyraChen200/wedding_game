@@ -1,17 +1,15 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom"
 import PhotoSlideShow from './games/photoslideshow'
+import TEST from './games/TEST'
 
 class App extends React.Component{
-    constructor(props) {
-        super(props)
-    }
-
+    
     render() {
-
         return (
             <Router>
-                <PhotoSlideShow />
+                <Route exact path="/" component={TEST} />
+                <Route path="/photoslideshow" component={PhotoSlideShow} />
             </Router>
         )
     }
