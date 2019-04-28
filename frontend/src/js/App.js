@@ -9,7 +9,7 @@ class App extends React.Component{
         return (
             <Router>
                 <Route exact path="/" component={TEST} />
-                <Route path="/photoslideshow" component={PhotoSlideShow} />
+                <Route path="/photoslideshow/:id" component={PhotoSlideShow} />
             </Router>
         )
     }
